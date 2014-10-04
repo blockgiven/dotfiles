@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ git clone https://github.com/blockgiven/dotfiles.git
+    $ cd dotfiles
+    $ bundle install
+    $ bundle exec dotfiles install
 
 ## Contributing
 
