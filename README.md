@@ -20,8 +20,8 @@ Or install it yourself as:
 
 ## Usage
 
-    $ git clone https://github.com/blockgiven/dotfiles.git
-    $ cd dotfiles
+    $ git clone https://github.com/blockgiven/dotfiles.git ~/src/github.com/blockgiven/dotfiles
+    $ cd src/github.com/blockgiven/dotfiles
     $ bundle install
     $ bundle exec dotfiles install
 
