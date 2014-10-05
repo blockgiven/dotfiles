@@ -79,5 +79,17 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+HISTSIZE=100000
+SAVEHIST=100000
+
+p() { peco | while read LINE; do $@ $LINE; done }
+
+alias b='bundle exec'
+alias d='git diff'
+alias ds='git diff --staged'
+alias e='ghq list -p | p cd'
 alias g=git
-alias be='bundle exec'
+alias r='bundle exec rspec'
+alias s='git status'
+alias t='tig'
+
