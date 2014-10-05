@@ -2,6 +2,8 @@
 
 dotfiles for me.
 
+![my icon](icon.jpeg)
+
 ## Installation
 
 Add this line to your application's Gemfile:
