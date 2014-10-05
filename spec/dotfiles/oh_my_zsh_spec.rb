@@ -7,7 +7,7 @@ describe Dotfiles::OhMyZsh do
     let(:home_dir) { Dir.mktmpdir }
 
     after do
-      FileUtils.rm home_dir
+      FileUtils.rm_rf home_dir
     end
 
     subject { Dotfiles::OhMyZsh.new(home_dir: home_dir) }
