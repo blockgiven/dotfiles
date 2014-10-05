@@ -1,4 +1,4 @@
-# Dotfiles
+# Dotfiles [![Build Status](https://travis-ci.org/blockgiven/dotfiles.svg)](https://travis-ci.org/blockgiven/dotfiles)
 
 dotfiles for me.
 
