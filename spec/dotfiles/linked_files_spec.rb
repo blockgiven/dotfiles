@@ -30,6 +30,7 @@ RSpec.describe Dotfiles::LinkedFiles do
       end
     end
 
+    include_examples 'creates a symlink to', '.gitconfig'
     include_examples 'creates a symlink to', '.zshenv'
     include_examples 'creates a symlink to', '.zshrc'
   end
