@@ -4,6 +4,13 @@ dotfiles for me.
 
 ![my icon](icon.jpeg)
 
+## TODO
+- copy divvy settings, system preferences pnael, security settings, accessiblity
+- system preferences keyboard setting, ⌘+1 to next window, change spotlight shortcut
+- auto hide dock
+- set input sources
+- install LINE
+
 ## Installation
 
 Add this line to your application's Gemfile:
