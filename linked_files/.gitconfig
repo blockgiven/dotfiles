@@ -7,3 +7,5 @@
 	name = block_given?
 [ghq]
 	root = /Users/block_given/src
+[push]
+	default = simple
