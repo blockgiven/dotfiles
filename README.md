@@ -10,6 +10,9 @@ dotfiles for me.
 - auto hide dock
 - set input sources
 - install LINE
+- install 1password safari extension
+- set cool iterm2 theme
+- install fonts
 
 ## Installation
 
