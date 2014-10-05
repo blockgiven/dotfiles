@@ -13,6 +13,7 @@ dotfiles for me.
 - install 1password safari extension
 - set cool iterm2 theme
 - install fonts
+- change social icon script
 
 ## Installation
 
