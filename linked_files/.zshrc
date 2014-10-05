@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -94,3 +94,10 @@ alias r='bundle exec rspec'
 alias s='git status'
 alias t='tig'
 
+local ret_status="%(?:%{$fg_bold[white]%}･:%{$fg_bold[red]%}･%s)"
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[107]%}[%{$FG[095]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[107]%}] %{$FG[208]%}✗%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[107]%}]"
+PROMPT='%{$FG[219]%}  ∩ ∩  %{$FG[225]%}∠ i’m at %{$FG[111]%}%~ $(git_prompt_info)
+%{$FG[219]%}( ${ret_status}%{$fg_bold[white]%}x${ret_status}%{$FG[219]%}) %{$reset_color%}'
