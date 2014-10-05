@@ -23,6 +23,7 @@ brew cask install atom
 brew cask install dropbox
 brew cask install google-japanese-ime
 brew cask install iterm2
+brew cask install onepassword
 brew cask install yorufukurou
 
 brew cleanup
