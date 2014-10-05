@@ -1,5 +1,10 @@
 require "dotfiles/version"
+require "dotfiles/linked_files"
 
 module Dotfiles
-  # Your code goes here...
+  module_function
+
+  def install
+    LinkedFiles.new.link!
+  end
 end
