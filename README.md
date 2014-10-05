@@ -23,7 +23,7 @@ Or install it yourself as:
     $ git clone https://github.com/blockgiven/dotfiles.git ~/src/github.com/blockgiven/dotfiles
     $ cd src/github.com/blockgiven/dotfiles
     $ bundle install
-    $ bundle exec dotfiles install
+    $ bundle exec bin/dotfiles
 
 ## Contributing
 
