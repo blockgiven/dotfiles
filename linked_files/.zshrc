@@ -84,6 +84,7 @@ SAVEHIST=100000
 
 p() { peco | while read LINE; do $@ $LINE; done }
 
+alias a=atom
 alias b='bundle exec'
 alias d='git diff'
 alias ds='git diff --staged'
