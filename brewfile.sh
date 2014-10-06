@@ -6,6 +6,7 @@ brew upgrade
 
 brew install go
 brew install hub
+brew install openssl
 brew install rbenv
 brew install readline
 brew install ruby-build
