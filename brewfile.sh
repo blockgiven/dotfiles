@@ -23,6 +23,7 @@ brew install caskroom/cask/brew-cask
 brew cask install atom
 brew cask install dropbox
 brew cask install google-japanese-ime
+brew cask install heroku-toolbelt
 brew cask install iterm2
 brew cask install minecraft
 brew cask install onepassword
