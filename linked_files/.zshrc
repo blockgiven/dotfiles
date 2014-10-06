@@ -104,3 +104,6 @@ PROMPT='%{$FG[219]%}  ∩ ∩  %{$FG[144]%}∠ i’m at %{$FG[111]%}%~ $(git_pro
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/block_given/.travis/travis.sh ] && source /Users/block_given/.travis/travis.sh
