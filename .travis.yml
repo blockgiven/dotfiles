@@ -1,2 +1,5 @@
 language: ruby
 rvm: 2.0.0
+notifications:
+  webhooks:
+    secure: NuZXkLfs2nZMuCQqOHgjWxGC4nUb5+Ky1uTPxX4XdiiyKk4+8FjkEWBIW2w7THqHi9WOITMgvUfI4xvkX491ruoNwDw60Q1Dp8VGSR0jw6GPhd2+oUgLopuVRW9IJJ8Cg4Ctv2haDwRJ4OeV5DFPD4b3JPRNR9Ftg01QphtZxDs=
