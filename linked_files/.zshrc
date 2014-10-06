@@ -94,7 +94,7 @@ alias r='bundle exec rspec'
 alias s='git status'
 alias t='tig'
 
-local ret_status="%(?:%{$fg_bold[white]%}･:%{$fg_bold[red]%}･%s)"
+local ret_status="%(?:%{$fg_bold[white]%}╹:%{$fg_bold[red]%}╹%s)"
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[107]%}[%{$FG[095]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[107]%}] %{$FG[208]%}✗%{$reset_color%}"
