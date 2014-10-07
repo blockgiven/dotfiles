@@ -86,6 +86,7 @@ p() { peco | while read LINE; do $@ $LINE; done }
 
 alias a='git add'
 alias b='bundle exec'
+alias c='git commit'
 alias d='git diff'
 alias ds='git diff --staged'
 alias e='ghq list -p | p cd'
