@@ -22,6 +22,7 @@ brew install peco
 brew install caskroom/cask/brew-cask
 brew cask install atom
 brew cask install dropbox
+brew cask install google-chrome
 brew cask install google-japanese-ime
 brew cask install heroku-toolbelt
 brew cask install iterm2
