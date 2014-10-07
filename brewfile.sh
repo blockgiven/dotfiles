@@ -21,6 +21,7 @@ brew install peco
 
 brew install caskroom/cask/brew-cask
 brew cask install atom
+brew cask install coteditor
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install google-japanese-ime
