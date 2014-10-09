@@ -12,6 +12,7 @@ brew install rbenv
 brew install readline
 brew install ruby-build
 brew install tig
+brew install tree
 brew install zsh
 
 brew tap motemen/ghq
