@@ -6,6 +6,7 @@ brew upgrade
 
 brew install go
 brew install hub
+brew install npm
 brew install openssl
 brew install postgres
 brew install rbenv
