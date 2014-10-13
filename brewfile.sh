@@ -8,6 +8,7 @@ brew install go
 brew install hub
 brew install npm
 brew install openssl
+brew install phantomjs
 brew install postgres
 brew install rbenv
 brew install readline
