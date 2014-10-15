@@ -4,6 +4,7 @@ set -e
 brew update
 brew upgrade
 
+brew install emacs
 brew install go
 brew install hub
 brew install npm
