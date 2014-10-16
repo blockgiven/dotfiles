@@ -31,7 +31,7 @@ RSpec.describe Dotfiles::LinkedFiles do
     end
 
     include_examples 'creates a symlink to', '.atom'
-    include_examples 'creates a symlink to', '.emacs'
+    include_examples 'creates a symlink to', '.emacs.d'
     include_examples 'creates a symlink to', '.gitconfig'
     include_examples 'creates a symlink to', '.zshenv'
     include_examples 'creates a symlink to', '.zshrc'
