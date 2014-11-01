@@ -4,6 +4,7 @@ set -e
 brew update
 brew upgrade
 
+brew install automake
 brew install emacs
 brew install go
 brew install hub
@@ -35,5 +36,9 @@ brew cask install iterm2
 brew cask install minecraft
 brew cask install onepassword
 brew cask install yorufukurou
+brew cask install xquartz
+
+brew tap sanemat/font
+brew install ricty
 
 brew cleanup
