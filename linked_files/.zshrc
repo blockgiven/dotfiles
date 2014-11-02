@@ -95,13 +95,13 @@ alias r='bundle exec rspec'
 alias s='git status'
 alias t='tig'
 
-local ret_status="%(?:%{$fg_bold[white]%}╹:%{$fg_bold[red]%}╹%s)"
+local ret_status="%(?:%{$FG[240]%}╹:%{$fg_bold[red]%}╹%s)"
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$FG[107]%}[%{$FG[095]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_DIRTY="%{$FG[107]%}] %{$FG[208]%}✗%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$FG[107]%}]"
-PROMPT='%{$FG[219]%}  ∩ ∩  %{$FG[144]%}∠ i’m at %{$FG[111]%}%~ $(git_prompt_info)
-%{$FG[219]%}( ${ret_status}%{$fg_bold[white]%}x${ret_status}%{$FG[219]%}) %{$reset_color%}'
+PROMPT='%{$FG[213]%}  ∩ ∩  %{$FG[144]%}∠ i’m at %{$FG[111]%}%~ $(git_prompt_info)
+%{$FG[213]%}( ${ret_status}%{$FG[240]%}x${ret_status}%{$FG[213]%}) %{$reset_color%}'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
