@@ -36,8 +36,8 @@ brew cask install iterm2
 brew cask install java
 brew cask install minecraft
 brew cask install onepassword
-brew cask install yorufukurou
 brew cask install xquartz
+brew cask install yorufukurou
 
 brew tap sanemat/font
 brew install ricty
