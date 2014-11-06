@@ -38,6 +38,7 @@ brew cask install minecraft
 brew cask install onepassword
 brew cask install vagrant
 brew cask install vagrant-manager
+brew cask install virtualbox
 brew cask install xquartz
 brew cask install yorufukurou
 
