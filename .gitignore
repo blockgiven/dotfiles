@@ -13,3 +13,5 @@
 *.a
 mkmf.log
 /vendor/bundle/
+
+.vagrant
