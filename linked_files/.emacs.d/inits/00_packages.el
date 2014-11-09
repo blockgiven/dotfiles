@@ -2,6 +2,7 @@
 (defvar my/packages
   '(
     helm
+    ruby-block
     ruby-end
     ))
 (let ((not-installed (remove-if 'package-installed-p my/packages)))
