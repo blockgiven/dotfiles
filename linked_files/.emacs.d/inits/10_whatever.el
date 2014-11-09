@@ -8,3 +8,7 @@
 
 ;; see more: http://www.emacswiki.org/emacs/AutoPairs
 (electric-pair-mode t)
+
+;; move window by shift + arrow key
+;; http://www.emacswiki.org/emacs/WindMove
+(windmove-default-keybindings)
