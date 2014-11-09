@@ -2,6 +2,7 @@
 (defvar my/packages
   '(
     helm
+    inf-ruby
     ruby-block
     ruby-end
     ))
