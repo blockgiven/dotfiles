@@ -1,2 +1,2 @@
 (require 'helm-config)
-(helm-mode 1)
+(helm-mode t)
