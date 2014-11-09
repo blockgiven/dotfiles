@@ -5,3 +5,6 @@
       `((".*" ,temporary-file-directory t)))
 (setq auto-save-list-file-prefix
               temporary-file-directory)
+
+;; see more: http://www.emacswiki.org/emacs/AutoPairs
+(electric-pair-mode t)
