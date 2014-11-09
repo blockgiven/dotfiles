@@ -6,3 +6,9 @@
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+(when (>= emacs-major-version 24)
+  (require 'package)
+  (package-initialize)
+  (package-refresh-contents)
+  )
