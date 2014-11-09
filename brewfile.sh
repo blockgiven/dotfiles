@@ -5,7 +5,7 @@ brew update
 brew upgrade
 
 brew install automake
-brew install emacs
+brew install emacs --cocoa
 brew install go
 brew install hub
 brew install npm
@@ -44,5 +44,7 @@ brew cask install yorufukurou
 
 brew tap sanemat/font
 brew install ricty
+
+brew linkapps
 
 brew cleanup
