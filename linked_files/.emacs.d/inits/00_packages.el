@@ -4,5 +4,5 @@
 (let ((not-installed (remove-if 'package-installed-p my/packages)))
   (when not-installed
     (package-refresh-contents)
-    (dolist (package my/packages)
-      (package-install  package))))
+    (mapc 'package-install my/packages)))
+
