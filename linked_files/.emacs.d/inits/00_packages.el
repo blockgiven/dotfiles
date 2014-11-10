@@ -3,6 +3,7 @@
   '(
     helm
     inf-ruby
+    quickrun
     ruby-block
     ruby-end
     ))
