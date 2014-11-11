@@ -1,3 +1,7 @@
+(require 'rbenv)
+(setq rbenv-installation-dir "/usr/local/var/rbenv")
+(global-rbenv-mode)
+
 (require 'ruby-block)
 (ruby-block-mode t)
 (setq ruby-block-highlight-toggle t)

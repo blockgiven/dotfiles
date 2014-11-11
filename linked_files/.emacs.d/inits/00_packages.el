@@ -4,6 +4,7 @@
     helm
     inf-ruby
     quickrun
+    rbenv
     robe
     ruby-block
     ruby-end
