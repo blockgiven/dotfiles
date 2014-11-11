@@ -1,5 +1,5 @@
 (require 'rbenv)
-(setq rbenv-installation-dir "/usr/local/var/rbenv")
+(setq rbenv-installation-dir "/usr/local/var/rbenv") ;; TODO: move to mac-*.el
 (global-rbenv-mode)
 
 (require 'ruby-block)
