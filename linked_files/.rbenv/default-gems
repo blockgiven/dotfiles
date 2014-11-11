@@ -1,4 +1,6 @@
 bundler
+pry
+pry-doc
 ripper-tags
 gem-ripper-tags
 rcodetools

@@ -12,3 +12,6 @@
 (add-hook 'inf-ruby-mode-hook 'ansi-color-for-comint-mode-on)
 
 (require 'rcodetools)
+
+(require 'robe)
+(add-hook 'ruby-mode-hook 'robe-mode)
