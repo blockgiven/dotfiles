@@ -1,6 +1,9 @@
-(require 'helm)
 (require 'helm-config)
 (helm-mode t)
 
 (require 'quickrun)
-(add-to-list 'helm-mini-default-sources 'helm-quickrun-source)
+(custom-set-variables
+ '(helm-mini-default-sources '(helm-source-buffers-list
+			       helm-source-recentf
+			       helm-source-buffer-not-found
+			       helm-quickrun-source)))
