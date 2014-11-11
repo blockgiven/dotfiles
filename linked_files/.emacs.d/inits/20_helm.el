@@ -7,3 +7,5 @@
 			       helm-source-recentf
 			       helm-source-buffer-not-found
 			       helm-quickrun-source)))
+
+(require 'helm-robe)

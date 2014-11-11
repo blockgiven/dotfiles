@@ -2,6 +2,7 @@
 (defvar my/packages
   '(
     helm
+    helm-robe
     inf-ruby
     quickrun
     rbenv
