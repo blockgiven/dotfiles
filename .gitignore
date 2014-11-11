@@ -16,3 +16,5 @@ mkmf.log
 
 .vagrant
 linked_files/.emacs.d/elpa/
+recentf
+TAGS
