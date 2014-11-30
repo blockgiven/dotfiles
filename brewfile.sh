@@ -19,6 +19,7 @@ brew install readline
 brew install ruby-build
 brew install tig
 brew install tree
+brew install tmux
 brew install zsh
 
 brew tap motemen/ghq
