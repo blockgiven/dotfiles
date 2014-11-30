@@ -14,6 +14,7 @@ brew install phantomjs
 brew install postgres
 brew install rbenv
 brew install rbenv-default-gems
+brew install rbenv-gem-rehash
 brew install readline
 brew install ruby-build
 brew install tig
