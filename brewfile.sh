@@ -36,6 +36,7 @@ brew cask install google-japanese-ime
 brew cask install heroku-toolbelt
 brew cask install iterm2
 brew cask install java
+brew cask install mactex
 brew cask install minecraft
 brew cask install onepassword
 brew cask install vagrant
