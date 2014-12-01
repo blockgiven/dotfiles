@@ -4,6 +4,7 @@
     helm
     helm-robe
     inf-ruby
+    jsx-mode
     quickrun
     rbenv
     robe
