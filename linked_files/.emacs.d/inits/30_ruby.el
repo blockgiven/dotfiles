@@ -21,3 +21,5 @@
 (add-hook 'ruby-mode-hook 'robe-mode)
 
 (custom-set-variables '(robe-completing-read-func 'helm-robe-completing-read))
+
+(setq ruby-insert-encoding-magic-comment nil)
