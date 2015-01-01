@@ -5,6 +5,7 @@ brew update
 brew upgrade
 
 brew install automake
+brew install ctags
 brew install emacs --cocoa
 brew install go
 brew install hub
