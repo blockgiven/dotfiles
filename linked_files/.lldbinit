@@ -1,0 +1,1 @@
+command regex rp 's/(.+)/e *(struct RString*)rb_funcall(*%1, rb_intern("inspect"), 0)/'
