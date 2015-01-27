@@ -3,6 +3,7 @@
   '(
     helm
     helm-robe
+    go-mode
     inf-ruby
     jsx-mode
     quickrun
