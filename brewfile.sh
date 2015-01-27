@@ -4,7 +4,10 @@ set -e
 brew update
 brew upgrade
 
+brew tap homebrew/dupes
+
 brew install automake
+brew install apple-gcc42
 brew install ctags
 brew install emacs --cocoa
 brew install go
